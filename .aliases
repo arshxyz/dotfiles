@@ -34,7 +34,7 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 alias pu="pdfunite"
 
 # Prevent macOS from sleeping
-alias cafe="caffienate"
+alias cafe="caffeinate"
 
 # Source .zshrc
 alias sc="source ~/.zshrc"
