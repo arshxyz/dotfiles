@@ -20,4 +20,4 @@ zsh .browser
 ```
 
 ### Thanks 
-These are mostly derived from [driesvints/dotfiles]("https://github.com/driesvints/dotfiles") and [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) 
+These are mostly derived from [driesvints/dotfiles](https://github.com/driesvints/dotfiles) and [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) 
