@@ -1,4 +1,4 @@
-## My dotfiles for fresh macOS install
+## My dotfiles for a fresh macOS install
 These are primarily written from the perspective of setting up a new work laptop and limited to bare essentials I require on it. Feel free to fork and create your own!
 
 ### Install
