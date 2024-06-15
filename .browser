@@ -1,0 +1,9 @@
+# Couldn't find a reliable way to automate installing extensions 
+# This saves a few Google searches
+
+open "https://vimium.github.io/"
+open "https://ublockorigin.com/"
+open "https://www.tampermonkey.net/"
+open "https://bitwarden.com/download/#downloads-web-browser"
+open "https://react.dev/learn/react-developer-tools"
+open "https://github.com/arshxyz/toplinks/raw/main/toplinks.user.js"

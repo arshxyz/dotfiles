@@ -1,0 +1,52 @@
+#!/usr/bin/env zsh
+
+# Shortcuts
+alias dl="~/Downloads"
+alias dt="~/Desktop"
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# Get week number
+alias week='date +%V'
+
+# Copy to clipboard
+alias c="pbcopy"
+
+# Paste from clipboard
+alias p="pbpaste"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# URL-encode strings
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+
+# Merge PDF files
+alias pu="pdfunite"
+
+# Prevent macOS from sleeping
+alias cafe="caffienate"
+
+# Source .zshrc
+alias sc="source ~/.zshrc"
+
+# Get IP address
+alias gip="curl ip-api.com"
+
+# Source .zshrc
+alias sc="source ~/.zshrc"
+
+# Get IP address
+alias gip="curl ip-api.com"
+
+# https://x.com/luciascarlet/status/1799036457660956896
+alias baptize="xattr -d com.apple.quarantine"
