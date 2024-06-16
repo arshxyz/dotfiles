@@ -40,13 +40,10 @@ alias cafe="caffeinate"
 alias sc="source ~/.zshrc"
 
 # Get IP address
-alias gip="curl ip-api.com"
+alias gip="curl -s -N "ip-api.com/json" | jq '{status, query, isp, city, regionName}'"
 
 # Source .zshrc
 alias sc="source ~/.zshrc"
-
-# Get IP address
-alias gip="curl ip-api.com"
 
 # https://x.com/luciascarlet/status/1799036457660956896
 alias baptize="xattr -d com.apple.quarantine"
